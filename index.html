@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Resume</title>
+
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+</head>
+
+<body>
+  <button> Change Color </button>
+  <script type="text/javascript">
+    var color = ["#fff", "#317720", "#da9e00", "#00e6c6", "#e64b00", "#7e8ac7"];
+    var i = 0;
+    document.querySelector("button").addEventListener
+      ("click", function () {
+        i = i < color.length ? ++i : 0;
+        document.querySelector("body").style.background = color[i]
+      })
+  </script>
+
+  <div class="resume">
+    <div class="resume_left">
+      <div class="resume_profile">
+        <img src="profile.jpg" alt="profile_pic">
+      </div>
+      <div class="resume_content">
+        <div class="resume_item resume_info">
+          <div class="title">
+            <p class="bold">Rj Tabiano</p>
+            <p class="regular">Web Designer</p>
+          </div>
+          <ul>
+            <li>
+              <div class="icon">
+                <i class="fas fa-map-signs"></i>
+              </div>
+              <div class="data">
+                4B Capas Road, Holy Spirit, <br /> Quezon City,
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div class="data">
+                +63 915434 1492
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="data">
+                tabianorj@gmail.com
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fab fa-weebly"></i>
+              </div>
+              <div class="data">
+                www.ITProfessionals.ph
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="resume_item resume_skills">
+          <div class="title">
+            <p class="bold">skills</p>
+          </div>
+          <ul>
+            <li>
+              <div class="skill_name">
+                HTML
+              </div>
+              <div class="skill_progress">
+                <span style="width: 90%;"></span>
+              </div>
+              <div class="skill_per">90%</div>
+            </li>
+            <li>
+              <div class="skill_name">
+                CSS
+              </div>
+              <div class="skill_progress">
+                <span style="width: 70%;"></span>
+              </div>
+              <div class="skill_per">70%</div>
+            </li>
+            <li>
+              <div class="skill_name">
+                J.Script
+              </div>
+              <div class="skill_progress">
+                <span style="width: 70%;"></span>
+              </div>
+              <div class="skill_per">70%</div>
+            </li>
+            </li>
+          </ul>
+        </div>
+        <div class="resume_item resume_social">
+          <div class="title">
+            <p class="bold">Social</p>
+          </div>
+          <ul>
+            <li>
+              <div class="icon">
+                <i class="fab fa-facebook-square"></i>
+              </div>
+              <div class="data">
+                <p class="semi-bold">Facebook</p>
+                <p>tabiano_rjlaurence</p>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fab fa-twitter-square"></i>
+              </div>
+              <div class="data">
+                <p class="semi-bold">Twitter</p>
+                <p>Jlaurence</p>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fab fa-youtube"></i>
+              </div>
+              <div class="data">
+                <p class="semi-bold">Youtube</p>
+                <p>Jlaurence</p>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="data">
+                <p class="semi-bold">Linkedin</p>
+                <p>Tabiano@linkedin</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="resume_right">
+      <div class="resume_item resume_about">
+        <div class="title">
+          <p class="bold">About us</p>
+        </div>
+        <p>Energetic Adobe Certified Expert (ACE) web designer with 6+ years of experience. Seeking to enhance design
+          excellence at Dujo International. Designed 5 responsive websites per month for Adobe with 99% client
+          satisfaction. Raised UX scores by 35% and customer retention by 18%. Received AWWWARDS prize 2015.</p>
+      </div>
+      <div class="resume_item resume_work">
+        <div class="title">
+          <p class="bold">Work Experience</p>
+        </div>
+        <ul>
+          <li>
+            <div class="date">2013 - 2015</div>
+            <div class="info">
+              <p class="semi-bold">Adobe</p>
+              <p>Lead UI/UX website designer for a fast-paced design firm. Created an average of four minor websites or
+                one major website per month.</p>
+            </div>
+          </li>
+          <li>
+            <div class="date">2015 - 2017</div>
+            <div class="info">
+              <p class="semi-bold">Canva Philippines</p>
+              <p>Created custom graphics sets for clients, with 99% client satisfaction scores.
+                Handled all composition, color, illustration, typography, and branding for client projects.</p>
+            </div>
+          </li>
+          <li>
+            <div class="date">2017 - Present</div>
+            <div class="info">
+              <p class="semi-bold">Facebook</p>
+              <p>Converted 100+ legacy sites to responsive design. Raised UX scores by 35%</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="resume_item resume_education">
+        <div class="title">
+          <p class="bold">Education</p>
+        </div>
+        <ul>
+          <li>
+            <div class="date">2010 - 2013</div>
+            <div class="info">
+              <p class="semi-bold">FEU Intitute of Technology </p>
+              <p>- Overall Top 10 student </p>
+              <p>- Scholar for 1st - 4th Year College </p>
+            </div>
+          </li>
+          <li>
+            <div class="date">2007 - 2018</div>
+            <div class="info">
+              <p class="semi-bold">St. Matthew College</p>
+              <p>- Best in ICT </p>
+              <p>- Creator of St. Matthew College's Website </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="resume_item resume_hobby">
+        <div class="title">
+          <p class="bold">Hobby</p>
+        </div>
+        <ul>
+          <li><i class="fas fa-book"></i></li>
+          <li><i class="fas fa-gamepad"></i></li>
+          <li><i class="fas fa-music"></i></li>
+          <li><i class="fab fa-pagelines"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
